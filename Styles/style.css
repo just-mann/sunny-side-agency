@@ -787,6 +787,8 @@ footer .socialDiv {
     margin-bottom: 2.6875rem;
   }
   footer .footerLinks {
+    width: 50.625rem;
+    margin: auto;
     margin-bottom: 5.4375rem;
   }
   footer .socialDiv {
