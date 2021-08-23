@@ -1,0 +1,177 @@
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+// Fixed Paddings
+.p {
+    padding: 1.5rem;
+}
+
+.py {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.px {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.pt {
+    padding-top: 1.5rem;
+}
+
+.pb {
+    padding-bottom: 1.5rem;
+}
+
+.pl {
+    padding-left: 1.5rem;
+}
+
+.pr {
+    padding-right: 1.5rem;
+}
+
+
+// Fixed Margins
+.m {
+    margin: 1.5rem;
+}
+
+.my {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.mx {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.mt {
+    margin-top: 1.5rem;
+}
+
+.mb {
+    margin-bottom: 1.5rem;
+}
+
+.ml {
+    margin-left: 1.5rem;
+}
+
+.mr {
+    margin-right: 1.5rem;
+}
+
+// Flexbox
+.d-flex {
+    display: flex;
+}
+
+.j-c-sb {
+    justify-content: space-between;
+}
+
+.j-c-c {
+    justify-content: center;
+}
+
+.j-c-start {
+    justify-content: start;
+}
+
+.j-c-end {
+    justify-content: end;
+}
+
+.a-i-center {
+    align-items: center;
+}
+
+.a-i-start {
+    align-items: flex-start;
+}
+
+.a-i-end {
+    align-items: flex-end;
+}
+
+// Display
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+// Header
+.header {
+    background-color: $darkBlue;
+    color: $white;
+    width: 100%;
+    min-height: 3.9375rem;
+    
+
+    &__logo {
+        text-decoration: none;
+        color: $white;
+        font-family: $texts__fonts;
+    }
+
+    &__links {
+        display: none;
+
+        a {
+            color: $white;
+        }
+
+        @include breakpoints-desktop(desktop) {
+            display: block;
+        }
+    }
+
+    &__menu__toggle {
+        cursor: pointer;
+        height: 2.5rem;
+        width: 2.25rem;
+        background-color: red;
+        display: flex;
+        justify-content: space-between;
+        
+
+        span {
+            display: block;
+            height: 3px;
+            width: 100%;            
+            background-color: $white;
+
+            &:not(:last-child){
+                margin-bottom: 7px;
+            }
+        }
+
+        @include breakpoints-desktop(desktop) {
+            display: none;
+        }
+    }
+}

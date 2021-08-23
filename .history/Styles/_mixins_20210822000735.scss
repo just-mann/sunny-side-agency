@@ -1,0 +1,22 @@
+// Layout
+
+// Breakpoints
+@media (min-width: 64em) {
+    // style goes here
+}
+
+$breakpoints-desktop: ("desktop": 90rem);
+$breakpoints-mobile: ("mobile": 23.4375rem);
+
+
+@mixin breakpoints-mobile($screen) {
+    @media (max-width: map-get($breakpoints-mobile, $screen)) {
+        @content;
+    }
+};
+
+@mixin breakpoints-mob($screen) {
+    @media (max-width: map-get($breakpoints-mob, $screen)) {
+        @content;
+    }
+};

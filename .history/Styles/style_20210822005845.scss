@@ -1,0 +1,139 @@
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+// 
+.p {
+
+}
+
+.py {
+
+}
+
+.px {
+
+}
+
+.pt {
+
+}
+
+.pb {
+
+}
+
+.pl {
+
+}
+
+.pr {
+
+}
+
+.m {
+
+}
+
+.my {
+
+}
+
+.mx {
+
+}
+
+.mt {
+
+}
+
+.mb {
+
+}
+
+.ml {
+
+}
+
+.mr {
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-c-sb {
+    justify-content: space-between;
+}
+
+.j-c-c {
+    justify-content: center;
+}
+
+.j-c-start {
+    justify-content: start;
+}
+
+.j-c-end {
+    justify-content: end;
+}
+
+.a-i-center {
+    align-items: center;
+}
+
+.a-i-start {
+    align-items: flex-start;
+}
+
+.a-i-end {
+    align-items: flex-end;
+}
+
+.header {
+    background-color: $darkBlue;
+    color: $white;
+    width: 100%;
+    min-height: 3.9375rem;
+    
+
+    &__logo {
+        text-decoration: none;
+        color: $white;
+        font-family: $texts__fonts;
+    }
+
+    &__links {
+        display: flex;
+
+        a {
+            color: $white;
+        }
+
+        @include breakpoints-mobile(mobile) {
+            display: none;
+        }
+    }
+
+    &__menu__toggle {
+        span {
+            width: 1.75rem;
+            min-height: 0.3125rem;
+            color: $white;
+        }
+
+        @include breakpoints-desktop(desktop) {
+            display: none;
+        }
+    }
+}
