@@ -19,7 +19,6 @@ a {
 
 .attribution {
   font-family: "Barlow", sans-serif;
-  font-size: 11px;
   text-align: center;
   padding-bottom: 1.5rem;
   font-size: 1rem;
@@ -154,6 +153,7 @@ a {
 }
 
 .header {
+  position: relative;
   background: url("/images/mobile/image-header.jpg") no-repeat center center/cover;
   max-width: 100%;
   height: 35.6875rem;
@@ -271,6 +271,24 @@ a {
   .header .hero .down__arrow {
     margin-top: 4.625rem;
   }
+}
+.header .menu {
+  position: absolute;
+  top: 7.825rem;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background-color: white;
+  min-width: 87%;
+  max-width: 60%;
+  min-height: 19rem;
+  margin: auto;
+  -webkit-transition: all ease-in-out 0.6s;
+  transition: all ease-in-out 0.6s;
+  display: none;
+}
+.header .menu .open-menu {
+  display: block;
 }
 
 .services {
