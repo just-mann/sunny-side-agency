@@ -159,7 +159,6 @@ a {
   height: 35.6875rem;
   margin: 0;
 }
-
 @media (min-width: 90rem) {
   .header {
     background: url("/images/desktop/image-header.jpg") no-repeat center center/cover;
@@ -167,27 +166,22 @@ a {
     min-height: 49.5rem;
   }
 }
-
 .header__nav {
   color: white;
   width: 100%;
   min-height: 4.125rem;
 }
-
 .header__nav__logo {
   min-height: auto;
 }
-
 .header__nav__links {
   display: none;
 }
-
 .header__nav__links a {
   color: white;
   font-size: 1.3125rem;
   font-family: "Barlow", sans-serif;
 }
-
 @media (min-width: 90rem) {
   .header__nav__links {
     display: -webkit-box;
@@ -214,7 +208,6 @@ a {
     border-radius: 2.57rem;
   }
 }
-
 .header__nav__menu__toggle {
   cursor: pointer;
   height: 1.85rem;
@@ -234,24 +227,20 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 .header__nav__menu__toggle span {
   display: block;
   height: 4px;
   width: 100%;
   background-color: white;
 }
-
 .header__nav__menu__toggle span:not(:last-child) {
   margin-bottom: 7px;
 }
-
 @media (min-width: 90rem) {
   .header__nav__menu__toggle {
     display: none;
   }
 }
-
 .header .hero h3 {
   width: 23.0625rem;
   margin: 4rem auto 0 auto;
@@ -263,7 +252,6 @@ a {
   -webkit-transition: font-size 0.6s;
   transition: font-size 0.6s;
 }
-
 @media (min-width: 90rem) {
   .header .hero h3 {
     width: 45.0625rem;
@@ -272,7 +260,6 @@ a {
     font-weight: 600;
   }
 }
-
 .header .hero .down__arrow {
   width: 2.1875rem;
   display: block;
@@ -280,13 +267,11 @@ a {
   margin: 2.9375rem auto;
   padding: 0;
 }
-
 @media (min-width: 90rem) {
   .header .hero .down__arrow {
     margin-top: 4.625rem;
   }
 }
-
 .header .menu {
   position: absolute;
   top: 7.825rem;
@@ -294,17 +279,41 @@ a {
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   background-color: white;
-  width: 87%;
+  width: 84%;
   max-width: 35rem;
   min-height: 19rem;
   margin: auto;
   -webkit-transition: all ease-in-out 0.6s;
   transition: all ease-in-out 0.6s;
   display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-
+.header .menu a {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  color: #5a636c;
+  font-size: 1.1875rem;
+}
+.header .menu .menu_contact {
+  font-family: "Fraunces", serif;
+  background-color: #fad400;
+  text-transform: uppercase;
+  padding: 1.4375rem 3.3125rem;
+  border-radius: 40px;
+}
 .header .open-menu {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .services {
@@ -314,12 +323,10 @@ a {
   max-width: 100%;
   margin: 0 auto;
 }
-
 .services h3 {
   font-family: "Fraunces", serif;
   text-align: center;
 }
-
 .services p {
   font-family: "Barlow", sans-serif;
   text-align: center;
@@ -327,7 +334,6 @@ a {
   color: #818498;
   margin: auto;
 }
-
 .services a {
   font-family: "Fraunces", serif;
   color: #23303e;
@@ -335,14 +341,12 @@ a {
   display: block;
   text-align: center;
 }
-
 .services .first {
   min-height: 28.4375rem;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
 }
-
 .services .first h3 {
   font-family: "Fraunces", serif;
   text-align: center;
@@ -350,7 +354,6 @@ a {
   font-size: 2rem;
   margin: 3.75rem auto 2rem auto;
 }
-
 .services .first p {
   font-family: "Barlow", sans-serif;
   text-align: center;
@@ -358,7 +361,6 @@ a {
   line-height: 1.75rem;
   margin-bottom: 2.0625rem;
 }
-
 .services .first a {
   position: relative;
   display: block;
@@ -366,7 +368,6 @@ a {
   margin-bottom: 3.4375rem;
   z-index: 10;
 }
-
 .services .first a::after {
   content: "";
   position: absolute;
@@ -383,7 +384,6 @@ a {
   z-index: 1;
   opacity: 0.4;
 }
-
 .services .eggs {
   background: url("/images/mobile/image-transform.jpg") no-repeat center center/cover;
   min-height: 29.4375rem;
@@ -392,7 +392,6 @@ a {
       -ms-flex-order: 1;
           order: 1;
 }
-
 .services .stand-out {
   background: url("/images/mobile/image-stand-out.jpg") no-repeat center center/cover;
   min-height: 29.4375rem;
@@ -401,14 +400,12 @@ a {
       -ms-flex-order: 3;
           order: 3;
 }
-
 .services .fourth {
   min-height: 29.4375rem;
   -webkit-box-ordinal-group: 5;
       -ms-flex-order: 4;
           order: 4;
 }
-
 .services .fourth h3 {
   font-family: "Fraunces", serif;
   text-align: center;
@@ -416,7 +413,6 @@ a {
   font-size: 2rem;
   margin: 4.5rem auto 2rem auto;
 }
-
 .services .fourth p {
   font-family: "Barlow", sans-serif;
   text-align: center;
@@ -424,7 +420,6 @@ a {
   line-height: 1.75rem;
   margin-bottom: 2.625rem;
 }
-
 .services .fourth a {
   position: relative;
   display: block;
@@ -432,7 +427,6 @@ a {
   margin-bottom: 3.4375rem;
   z-index: 10;
 }
-
 .services .fourth a::after {
   content: "";
   position: absolute;
@@ -449,7 +443,6 @@ a {
   z-index: 1;
   opacity: 0.4;
 }
-
 .services .apples {
   background: url("/images/mobile/image-graphic-design.jpg") no-repeat center center/cover;
   min-height: 29.5rem;
@@ -457,7 +450,6 @@ a {
       -ms-flex-order: 5;
           order: 5;
 }
-
 .services .apples h3 {
   font-family: "Fraunces", serif;
   color: #23303e;
@@ -467,7 +459,6 @@ a {
   margin: 19.8125rem auto 1rem auto;
   opacity: 0.8;
 }
-
 .services .apples p {
   font-family: "Barlow", sans-serif;
   color: #23303e;
@@ -478,7 +469,6 @@ a {
   color: black;
   opacity: 0.7;
 }
-
 .services .orange {
   background: url("/images/mobile/image-photography.jpg") no-repeat center center/cover;
   min-height: 29.5rem;
@@ -486,7 +476,6 @@ a {
       -ms-flex-order: 6;
           order: 6;
 }
-
 .services .orange h3 {
   font-family: "Fraunces", serif;
   color: #23303e;
@@ -496,7 +485,6 @@ a {
   margin: 19.8125rem auto 1rem auto;
   opacity: 0.8;
 }
-
 .services .orange p {
   font-family: "Barlow", sans-serif;
   color: #23303e;
@@ -506,13 +494,11 @@ a {
   margin-bottom: 3.0625rem;
   opacity: 0.7;
 }
-
 @media (min-width: 90rem) {
   .services {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(50%, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
   }
   .services > div {
     height: 37.1875rem;
@@ -679,7 +665,6 @@ a {
   text-align: center;
   width: 100%;
 }
-
 .clientsTestimonial > h3 {
   font-family: "Fraunces", serif;
   color: #a7abae;
@@ -688,7 +673,6 @@ a {
   text-align: center;
   font-size: 1.5rem;
 }
-
 @media (min-width: 90rem) {
   .clientsTestimonial > h3 {
     margin-top: 10.375rem;
@@ -696,24 +680,21 @@ a {
     font-size: 1.8125rem;
   }
 }
-
 .clientsTestimonial .card {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   width: 100%;
   text-align: center;
   margin: 0 auto 10.1875rem auto;
   padding: 0px 3.875rem;
 }
-
 .clientsTestimonial .card .client {
   text-align: center;
   max-width: 25.875rem;
   margin: auto;
 }
-
 .clientsTestimonial .card .client img {
   width: 4.625rem;
   height: 4.625rem;
@@ -721,27 +702,23 @@ a {
   margin-bottom: 1.9375rem;
   border-radius: 100%;
 }
-
 .clientsTestimonial .card .client .testimonies {
   font-family: "Barlow", sans-serif;
   color: #818498;
   font-size: 1.375rem;
   margin-bottom: 1.9375rem;
 }
-
 .clientsTestimonial .card .client .name {
   margin-bottom: 0.875rem;
 }
-
 .clientsTestimonial .card .client .position {
   color: #a7abae;
   font-size: 1.3rem;
 }
-
 @media (min-width: 90rem) {
   .clientsTestimonial .card {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: 1fr 0.625rem 1fr 0.625rem 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 0.625rem;
   }
   .clientsTestimonial .card .client {
@@ -775,33 +752,27 @@ a {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
-
 .imgGallery div {
   min-height: 9.3125rem;
 }
-
 .imgGallery .img1 {
   background: url("/images/desktop/image-gallery-milkbottles.jpg") no-repeat center center/cover;
 }
-
 .imgGallery .img2 {
   background: url("/images/desktop/image-gallery-orange.jpg") no-repeat center center/cover;
 }
-
 .imgGallery .img3 {
   background: url("/images/desktop/image-gallery-cone.jpg") no-repeat center center/cover;
 }
-
 .imgGallery .img4 {
   background: url("/images/desktop/image-gallery-sugarcubes.jpg") no-repeat center center/cover;
 }
-
 @media (min-width: 90rem) {
   .imgGallery {
     -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .imgGallery div {
     min-height: 27.3125rem;
@@ -813,7 +784,6 @@ footer {
   background-color: #458c7e;
   padding-top: 3.125rem;
 }
-
 footer .footerLogo {
   display: block;
   text-align: center;
@@ -821,7 +791,6 @@ footer .footerLogo {
   font-size: 24px;
   margin-bottom: 2.1875rem;
 }
-
 footer .footerLinks {
   color: #25564b;
   display: -webkit-box;
@@ -836,11 +805,9 @@ footer .footerLinks {
   text-align: center;
   margin-bottom: 4.375rem;
 }
-
 footer .footerLinks a {
   color: #25564b;
 }
-
 footer .socialDiv {
   width: 15.625rem;
   display: -webkit-box;
@@ -855,7 +822,6 @@ footer .socialDiv {
   text-align: center;
   margin: 0 auto 4.3125rem auto;
 }
-
 @media (min-width: 90rem) {
   footer {
     padding-top: 9.3125rem;
@@ -873,4 +839,3 @@ footer .socialDiv {
     margin-bottom: 4.3125rem;
   }
 }
-/*# sourceMappingURL=style.css.map */

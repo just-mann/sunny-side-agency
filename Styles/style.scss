@@ -257,18 +257,36 @@
         left: 50%;
         transform: translate(-50%);
         background-color: $white;
-        width: 87%;
+        width: 84%;
         max-width: 35rem;
         min-height: 19rem;
         margin: auto;
         transition: all ease-in-out 0.6s;
         display: none;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        a {
+          font-family: $texts__fonts;
+          font-weight: $texts__fonts__medium;
+          color: $veryDarkGrayishBlue;
+          font-size: 1.1875rem;
+        }
+
+        .menu_contact {
+          font-family: $headings__fonts;
+          background-color: $yellow;
+          text-transform: uppercase;
+          padding: 1.4375rem 3.3125rem;
+          border-radius: 40px;
+        }
 
     }
 
 
     .open-menu {
-        display: block;
+        display: flex;
     }
 
 
