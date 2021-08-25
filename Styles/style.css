@@ -471,7 +471,7 @@ a {
   line-height: 1.75rem;
   margin-bottom: 3.0625rem;
   color: black;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 .services .orange {
   background: url("/images/mobile/image-photography.jpg") no-repeat center center/cover;
@@ -496,7 +496,7 @@ a {
   max-width: 17.625rem;
   line-height: 1.75rem;
   margin-bottom: 3.0625rem;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 @media (min-width: 90rem) {
   .services {
@@ -793,10 +793,13 @@ footer .footerLogo {
   text-align: center;
   color: #25564b;
   font-size: 24px;
+  font-weight: bold;
   margin-bottom: 2.1875rem;
 }
 footer .footerLinks {
   color: #25564b;
+  width: 18.5625rem;
+  font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -807,6 +810,7 @@ footer .footerLinks {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  margin: auto;
   margin-bottom: 4.375rem;
 }
 footer .footerLinks a {
@@ -834,9 +838,14 @@ footer .socialDiv {
     margin-bottom: 2.6875rem;
   }
   footer .footerLinks {
-    width: 50.625rem;
+    width: 18.5625rem;
     margin: auto;
     margin-bottom: 5.4375rem;
+  }
+  footer .footerLinks a {
+    color: #25564b;
+    font-weight: bold;
+    font-size: 18px;
   }
   footer .socialDiv {
     width: 16.625rem;
