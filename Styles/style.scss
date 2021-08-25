@@ -275,6 +275,10 @@
           padding: 1.4375rem 3.3125rem;
           border-radius: 40px;
         }
+
+        @include breakpoints-desktop(desktop) {
+          display: none;
+        }
     }
 
     .open-menu {

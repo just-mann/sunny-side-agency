@@ -312,6 +312,11 @@ a {
   padding: 1.4375rem 3.3125rem;
   border-radius: 40px;
 }
+@media (min-width: 90rem) {
+  .header .menu {
+    display: none;
+  }
+}
 .header .open-menu {
   display: -webkit-box;
   display: -ms-flexbox;
