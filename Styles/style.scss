@@ -178,6 +178,12 @@
                     color: $veryDarkGrayishBlue;
                     background-color: $white;
                     border-radius: 2.57rem;
+                    transition: all 0.6s;
+
+                    &:hover {
+                      background-color: $header__background-color;
+                      color: $white;
+                    }
                 }
             }
         }
@@ -312,8 +318,6 @@
       text-transform: uppercase;
       display: block;
       text-align: center;
-
-
     }
 
 
@@ -357,6 +361,7 @@
           width: 137px;
           margin: auto;
           z-index: 1;
+          transition: all 0.6s;
           opacity: 0.4;
         }
 
@@ -424,11 +429,11 @@
             width: 137px;
             margin: auto;
             z-index: 1;
+            transition: all 0.6s;
             opacity: 0.4;
           }
 
           &:hover {
-
             &::after {
               opacity: 0.8;
             }
@@ -800,6 +805,7 @@ footer {
 
 
   .footerLogo {
+    font-family: $texts__fonts;
     display: block;
     text-align: center;
     color: $darkDesatCyan;

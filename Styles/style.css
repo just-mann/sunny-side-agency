@@ -206,6 +206,12 @@ a {
     color: #5a636c;
     background-color: white;
     border-radius: 2.57rem;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+  }
+  .header__nav__links .contact:hover {
+    background-color: #6ECFFF;
+    color: white;
   }
 }
 .header__nav__menu__toggle {
@@ -391,6 +397,8 @@ a {
   width: 137px;
   margin: auto;
   z-index: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
   opacity: 0.4;
 }
 .services .first a:hover::after {
@@ -453,6 +461,8 @@ a {
   width: 137px;
   margin: auto;
   z-index: 1;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
   opacity: 0.4;
 }
 .services .fourth a:hover::after {
@@ -800,6 +810,7 @@ footer {
   padding-top: 3.125rem;
 }
 footer .footerLogo {
+  font-family: "Barlow", sans-serif;
   display: block;
   text-align: center;
   color: #25564b;
